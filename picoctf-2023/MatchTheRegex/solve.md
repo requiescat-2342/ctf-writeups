@@ -34,7 +34,7 @@ View source (Ctrl+U) shows this block of code:
 ```
 
 There is a commented string that is a regular expression (regex). A little research reveals that the `^` signifies the beginning of the regex, and `?` signifies the end. `!` is the `not` operator. `.` signifies any character. 
-This implies the `send_request()` function will fetch the flag if you pass a string gthat starts with a `p`, has 5 of any character, then ends with a capital F. 
+This implies the `send_request()` function will fetch the flag if you pass a string gthat starts with a `p`, has 5 of any character, then ends with a capital F. (Since `!` isn't before another character, it does nothing.)
 
 Entering such a string, for example `paaaaaF`, prints out the flag.
 
