@@ -12,7 +12,7 @@ Hints: None
 
 The question says to match a regular expression. Going to the website shows a text box with a submit button. 
 
-![alt text](https:)
+![alt text](https://github.com/requiescat-2342/ctf-writeups/blob/main/picoctf-2023/MatchTheRegex/website.PNG)
 
 View source (Ctrl+U) shows this block of code:
 ```console
